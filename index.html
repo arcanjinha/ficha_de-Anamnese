@@ -159,12 +159,6 @@ em books, redes sociais ou qualquer material publicitário.</strong></label><br>
 <label for="assinatura"><strong>Formato da Unha:</strong></label>
         <input type="text" name="assinatura" id="unha" placeholder="quadrada / almond / stiletto / bailarina " required />
         
-        <label for="assinatura"><strong>Comprimento da Unha:</strong></label>
-        <input type="text" name="assinatura" id="cm" placeholder="Digite seu nome completo aqui" required />
-
-<label for="assinatura"><strong>Data da Manutenção:</strong></label>
-        <input type="text" name="assinatura" id="manuten" placeholder="Digite seu nome completo aqui" required />
-
         <button type="submit" onclick="enviar()">Pronto</button>
 
         <script>
@@ -183,8 +177,6 @@ em books, redes sociais ou qualquer material publicitário.</strong></label><br>
                 var gel = document.getElementById("gel").value;
                 var proce = document.getElementById("proce").value;
                 var unha = document.getElementById("unha").value;
-                var cm = document.getElementById("cm").value;
-                var manuten = document.getElementById("manuten").value;
 
                 var perguntas = document.querySelectorAll('ul li');
                 var respostas = '';
@@ -209,10 +201,7 @@ em books, redes sociais ou qualquer material publicitário.</strong></label><br>
                     "*Observação*: " + msg +
                      "*Técnica aplicada*: " + gel + "%0a" +
                      "*Data do procedimento*: " + proce + "%0a" +
-                     "*Formato*: " + unha + "%0a" +
-                     "*Comprimento*: " + cm + "%0a" +
-                     "*Data da manutenção*: " + manuten + "%0a";
-
+                     "*Formato*: " + unha + "%0a";
                 window.open(url, '_blank').focus();
             }
         </script>
