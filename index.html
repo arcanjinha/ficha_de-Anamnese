@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cilios</title>
+    <link rel="stylesheet" href="./styleform.css">
+</head>
+
+<body>
+    <h2>Alongamento de Unhas</h2>
+    <h3>Ficha de Anamnese</h3>
+    <br>
+
+    <form method="get">
+        <h3>Preencha com seus dados</h3>
+        <label for="nome"><strong>Nome:</strong></label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome e sobrenome" required />
+        <label for="telefone"><strong>Whatsapp:</strong></label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Digite seu número de Whatsapp" required />
+        <label for="nome"><strong>Data de Nasc:</strong></label>
+        <input type="text" name="email" id="email" placeholder="Sua data de nascimento" />
+        <label for="nome"><strong>Ocupação:</strong></label>
+        <input type="text" name="email" id="ocup" placeholder="Sua ocupação" />
+        <label for="nome"><strong>RG:</strong></label>
+        <input type="text" name="email" id="rg" placeholder="Digite seu RG" />
+        <label for="end"><strong>Endereço:</strong></label>
+        <input type="text" name="end" id="end" placeholder="Seu endereço" required />
+
+        <ul>
+            <li>
+                <label for="pergunta1"><strong>Tem onicocriptose (Unha encravada)? </strong></label><br>
+                <input type="radio" id="pergunta1-sim" name="pergunta1" value="Sim" required>
+                <label for="pergunta1-sim">Sim</label>
+                <input type="radio" id="pergunta1-nao" name="pergunta1" value="Não" required>
+                <label for="pergunta1-nao">Não</label>
+            </li>
+            <li>
+        <label for="pergunta2"><strong>Está gestante? </strong></label><br>
+        <input type="radio" id="pergunta2-sim" name="pergunta2" value="Sim" required>
+        <label for="pergunta2-sim">Sim</label>
+        <input type="radio" id="pergunta2-nao" name="pergunta2" value="Não" required>
+        <label for="pergunta2-nao">Não</label>
+    </li>
+    <li>
+        <label for="pergunta3"><strong>Onicofagia (Roer unhas)? </strong></label><br>
+        <input type="radio" id="pergunta3-sim" name="pergunta3" value="Sim" required>
+        <label for="pergunta3-sim">Sim</label>
+        <input type="radio" id="pergunta3-nao" name="pergunta3" value="Não" required>
+        <label for="pergunta3-nao">Não</label>
+    </li>
+    <li>
+        <label for="pergunta4"><strong>Descamações na lâmina ungueal? </strong></label><br>
+        <input type="radio" id="pergunta4-sim" name="pergunta4" value="Sim" required>
+        <label for="pergunta4-sim">Sim</label>
+        <input type="radio" id="pergunta4-nao" name="pergunta4" value="Não" required>
+        <label for="pergunta4-nao">Não</label>
+    </li>
+    <li>
+        <label for="pergunta5"><strong>Manchas na lâmina ungueal? </strong></label><br>
+        <input type="radio" id="pergunta5-sim" name="pergunta5" value="Sim" required>
+        <label for="pergunta5-sim">Sim</label>
+        <input type="radio" id="pergunta5-nao" name="pergunta5" value="Não" required>
+        <label for="pergunta5-nao">Não</label>
+    </li>
+    <li>
+        <label for="pergunta6"><strong>Possui alergia a Cosméticos, esmaltes ou alguma outra substância? </strong></label><br>
+        <input type="radio" id="pergunta6-sim" name="pergunta6" value="Sim" required>
+        <label for="pergunta6-sim">Sim</label>
+        <input type="radio" id="pergunta6-nao" name="pergunta6" value="Não" required>
+        <label for="pergunta6-nao">Não</label><br>
+        <label for="indic"><strong></strong>Qual?</label>
+        <input type="text" name="indic" id="indic" placeholder="Especifique"  />
+    </li>
+    <li>
+        <label for="pergunta7"><strong>Pratica esportes de impacto? </strong></label><br>
+        <input type="radio" id="pergunta7-sim" name="pergunta7" value="Sim" required>
+        <label for="pergunta7-sim">Sim</label>
+        <input type="radio" id="pergunta7-nao" name="pergunta7" value="Não" required>
+        <label for="pergunta7-nao">Não</label>
+    </li>
+    <li>
+        <label for="pergunta8"><strong>Diabetes?</strong></label><br>
+        <input type="radio" id="pergunta8-sim" name="pergunta8" value="Sim" required>
+        <label for="pergunta8-sim">Sim</label>
+        <input type="radio" id="pergunta8-nao" name="pergunta8" value="Não" required>
+        <label for="pergunta8-nao">Não</label>
+        <input type="text" id="pergunta8-resposta" name="pergunta8-resposta" placeholder="Qual?" style="display: none;">
+    </li>
+    <li>
+            <label for="pergunta9"><strong>Frequenta piscina/mar diariamente?</strong></label><br>
+            <input type="radio" id="pergunta9-sim" name="pergunta9" value="Sim" required>
+            <label for="pergunta9-sim">Sim</label>
+            <input type="radio" id="pergunta9-nao" name="pergunta9" value="Não" required>
+            <label for="pergunta9-nao">Não</label>
+            <input type="text" id="pergunta9-resposta" name="pergunta9-resposta" placeholder="Qual?" style="display: none;">
+        </li>
+        
+        <li>
+            <label for="pergunta10"><strong>Estrias na lâmina ungueal?</strong></label><br>
+            <input type="radio" id="pergunta10-sim" name="pergunta10" value="Sim" required>
+            <label for="pergunta10-sim">Sim</label>
+            <input type="radio" id="pergunta10-nao" name="pergunta10" value="Não" required>
+            <label for="pergunta10-nao">Não</label>
+            <input type="text" id="pergunta10-resposta" name="pergunta10-resposta" placeholder="Qual?" style="display: none;">
+        </li>
+        <li>
+            <label for="pergunta11"><strong>Deslocamento na lâmina ungueal?</strong></label><br>
+            <input type="radio" id="pergunta11-sim" name="pergunta11" value="Sim" required>
+            <label for="pergunta11-sim">Sim</label>
+            <input type="radio" id="pergunta11-nao" name="pergunta11" value="Não" required>
+            <label for="pergunta11-nao">Não</label>
+            <input type="text" id="pergunta11-resposta" name="pergunta11-resposta" placeholder="Qual?" style="display: none;">
+        </li>
+        <li>
+            <label for="pergunta12"><strong>Ja teve algum problema de onicomicose?</strong></label><br>
+            <input type="radio" id="pergunta12-sim" name="pergunta12" value="Sim" required>
+            <label for="pergunta12-sim">Sim</label>
+            <input type="radio" id="pergunta12-nao" name="pergunta12" value="Não" required>
+            <label for="pergunta12-nao">Não</label>
+            <input type="text" id="pergunta12-resposta" name="pergunta12-resposta" placeholder="Qual?" style="display: none;"><br>
+            	<label for="indic"><strong>Qual:</strong></label>
+        <input type="text" name="indic" id="indic" placeholder="Especifique" />
+        </li>
+        <li>
+            <label for="pergunta13"><strong>Declaro que as informações acima são verdadeiras, não cabendo ao profissional quaisquer responsabilidades
+informações omitidas em nossa avaliação!!
+Comprometo-me a seguir todos os cuidados necessários após o procedimento. 
+Autorizo registro fotogrático do trabalho realizado "antes e
+depois" para efeitos de documentação e divulgação
+em books, redes sociais ou qualquer material publicitário.</strong></label><br>
+            <input type="radio" id="pergunta13-sim" name="pergunta13" value="Sim" required>
+            <label for="pergunta13-sim">Sim</label>
+            <input type="radio" id="pergunta13-nao" name="pergunta13" value="Não" required>
+            <label for="pergunta13-nao">Não</label>
+            <input type="text" id="pergunta13-resposta" name="pergunta13-resposta" placeholder="Qual?" style="display: none;">
+        </li>
+</ul>       
+
+        
+<label for="obv"><strong>Se tem algum problema que seja necessário nos informar digite abaixo:</strong></label>
+<textarea name="msg" id="msg" placeholder="Digite aqui coisas de extrema importância, tipo o que te causa alergias e etc..." rows="5" required></textarea><br />
+
+
+        <label for="data"><strong>Data:</strong></label>
+        <input type="text" name="data" id="data" placeholder="Data" required />
+
+        <label for="assinatura"><strong>Assinatura:</strong></label>
+        <input type="text" name="assinatura" id="assinatura" placeholder="Digite seu nome completo aqui" required />
+        
+        <label for="gel"><strong>Técnica Aplicada:</strong></label>
+        <input type="text" name="assinatura" id="gel" placeholder="Gel ou Acrigel" required />
+        
+        <label for="proce"><strong>Data do Procedimento:</strong></label>
+        <input type="text" name="assinatura" id="proce" placeholder="Data do procedimento" required />
+
+<label for="assinatura"><strong>Formato da Unha:</strong></label>
+        <input type="text" name="assinatura" id="unha" placeholder="quadrada / almond / stiletto / bailarina " required />
+        
+        <label for="assinatura"><strong>Comprimento da Unha:</strong></label>
+        <input type="text" name="assinatura" id="cm" placeholder="Digite seu nome completo aqui" required />
+
+<label for="assinatura"><strong>Data da Manutenção:</strong></label>
+        <input type="text" name="assinatura" id="manuten" placeholder="Digite seu nome completo aqui" required />
+
+        <button type="submit" onclick="enviar()">Pronto</button>
+
+        <script>
+            function enviar() {
+                var nome = document.getElementById("nome").value;
+                var telefone = document.getElementById("telefone").value;
+                var dataN = document.getElementById("email").value;
+                var endereco = document.getElementById("end").value;
+                var indicacao = document.getElementById("indic").value;
+
+                var assinatura = document.getElementById("assinatura").value;
+                var data = document.getElementById("data").value;
+                var msg = document.getElementById("msg").value;
+                var rg = document.getElementById("rg").value;
+                var ocupa = document.getElementById("ocup").value;
+                var gel = document.getElementById("gel").value;
+                var proce = document.getElementById("proce").value;
+                var unha = document.getElementById("unha").value;
+                var cm = document.getElementById("cm").value;
+                var manuten = document.getElementById("manuten").value;
+
+                var perguntas = document.querySelectorAll('ul li');
+                var respostas = '';
+                perguntas.forEach(function(pergunta) {
+                    var label = pergunta.querySelector('label').innerText.trim();
+                    var resposta = pergunta.querySelector('input[type="radio"]:checked').value;
+                    respostas += label + ' ' + resposta + '%0a' +  '%0a'; // Adiciona a pergunta e resposta com quebra de linha
+                });
+
+                var url = "https://wa.me/5511997504878?text=" +
+                    "*Ficha de  Anamnese*" + "%0a" + // Mensagem personalizada
+                    "%0a" + // Quebra de linha
+                    "*Nome*: " + nome + "%0a" + // Dados do formulário
+                    "*Telefone*: " + telefone + "%0a" +
+                    "*Data de Nascimento*: " + dataN + "%0a" +
+                    "*Endereço*: " + endereco + "%0a" +
+                    "*Rg*: " + rg + "%0a" +
+                    "*Ocupação*: " + ocupa + "%0a" +
+                    "*Data*: " + data + "%0a" +
+                    "*Assinatura*: " + assinatura + "%0a" +
+                    "*Respostas*: " + "%0a" + respostas +
+                    "*Observação*: " + msg +
+                     "*Técnica aplicada*: " + gel + "%0a" +
+                     "*Data do procedimento*: " + proce + "%0a" +
+                     "*Formato*: " + unha + "%0a" +
+                     "*Comprimento*: " + cm + "%0a" +
+                     "*Data da manutenção*: " + manuten + "%0a";
+
+                window.open(url, '_blank').focus();
+            }
+        </script>
+    </form>
+</body>
+
+</html>
